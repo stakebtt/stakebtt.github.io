@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>StakeBTT</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=9" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+<!-- Modal -->
+<div class="modal fade" id="Subscribe" tabindex="-1" role="dialog" aria-labelledby="ModalScrollableTitle" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-body">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+				<h1>Subscribe</h1>
+				<p>Get <b>1 Month</b> subscription for as low as <b>10 TRX</b> to access BTT staking data.</p>
+				<button class="btn">Buy</button>
+				<span class="note">*There is no possibility to cancel subscription or make refund.</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<a href="javascript:void(0)" data-toggle="modal" data-target="#Subscribe">Delete ME Subscription Popup Link</a>
+
+<div class="container-fluid header">
+	<div class="row">
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-3 brand">				
+			StakeBTT
+		</div>
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 staked">				
+			My Total Stake: <label><i class="icon-btt"></i>1,100,234.55</label>
+		</div>
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-3 wallet">				
+			<span class="addr">TNir...y8Vq</span><span class="login-btn">Login to Wallet</span>
+		</div>
+	</div>
+</div>
+
+<div class="grid">
+	<div class="left-side">
+		<div class="block token-block">
+			<label>BTT Token<a href="javascript:void(0)" class="hide-btn hide-token-btn"></a></label>
+			<i class="btt-logo"></i>
+			<span class="amount"><span class="title">Market Cap:</span>$18,383,897.70</span>
+		</div>
+		<div class="block price-block">
+			<label>BTT Price<a href="javascript:void(0)" class="hide-btn hide-price-btn"></a></label>
+			<span class="in-trx"><i class="icon-trx"></i>0.019</span>
+			<span class="amount price">$0.00008767<span class="percent up">+2.29%</span><span class="percent down">+2.29%</span></span>
+		</div>
+		<div class="block register">
+			<a href="https://dlive.tv?ref=stakebtt" class="dlive">
+				<label>Stake at DLive.tv</label>
+				<span class="logo"></span>
+				<span class="btn">Register</span>
+			</a>
+			<a href="https://www.binance.com/en/register?ref=19915108" class="btt">
+				<label>Buy Bittorrent Token</label>
+				<span class="logo"></span>
+				<span class="btn">Buy</span>
+			</a>
+		</div>
+	</div>
+	<div class="content">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+					<div class="block charts">
+						<label>Stakes Count<span class="percent up">+2.29%</span></label>
+						<span class="amount">2808</span>
+						<div class="chart">
+							zdesj grafik zholtij kak na winkscan vse stili
+							visota 200px
+						</div>
+					</div>
+				</div>
+				<div class="col col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+					<div class="block charts">
+						<label>Total BTT Staked<span class="percent down">-2.29%</span></label>
+						<span class="amount">15.1b</span>
+						<div class="chart">
+							zdesj grafik zholtij kak na winkscan vse stili
+							visota 200px
+						</div>
+					</div>
+				</div>
+				<div class="col col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+					<div class="block charts">
+						<label>Pending Stake Out Amount<span class="percent up">+2.29%</span></label>
+						<span class="amount">12.3m</span>
+						<div class="chart">
+							zdesj grafik zholtij kak na winkscan vse stili
+							visota 200px
+						</div>
+					</div>
+				</div>
+				<div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+					<div class="block">
+						<label>History</label>
+						<div class="table-responsive">
+							<table class="table table-borderless">
+								<thead>
+									<tr>
+										<th scope="col">Date</th>
+										<th scope="col">Total BTT Staked</th>
+										<th scope="col">BTT Distributed</th>
+										<th scope="col">My Total Stake</th>
+										<th scope="col">Received</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>12.12.2020</td>
+										<td><i class="icon-btt"></i>11b</td>
+										<td><i class="icon-btt"></i>17.1m</td>
+										<td><i class="icon-btt"></i>1m</td>
+										<td><i class="icon-btt"></i>200</td>
+									</tr>
+									<tr>
+										<td>12.12.2020</td>
+										<td><i class="icon-btt"></i>11b</td>
+										<td><i class="icon-btt"></i>17.1m</td>
+										<td><i class="icon-btt"></i>1m</td>
+										<td><i class="icon-btt"></i>200</td>
+									</tr>
+									<tr>
+										<td>12.12.2020</td>
+										<td><i class="icon-btt"></i>11b</td>
+										<td><i class="icon-btt"></i>17.1m</td>
+										<td><i class="icon-btt"></i>1m</td>
+										<td><i class="icon-btt"></i>200</td>
+									</tr>
+									<tr>
+										<td>12.12.2020</td>
+										<td><i class="icon-btt"></i>11b</td>
+										<td><i class="icon-btt"></i>17.1m</td>
+										<td><i class="icon-btt"></i>1m</td>
+										<td><i class="icon-btt"></i>200</td>
+									</tr>
+									<tr>
+										<td>12.12.2020</td>
+										<td><i class="icon-btt"></i>11b</td>
+										<td><i class="icon-btt"></i>17.1m</td>
+										<td><i class="icon-btt"></i>1m</td>
+										<td><i class="icon-btt"></i>200</td>
+									</tr>
+									<tr>
+										<td>12.12.2020</td>
+										<td><i class="icon-btt"></i>11b</td>
+										<td><i class="icon-btt"></i>17.1m</td>
+										<td><i class="icon-btt"></i>1m</td>
+										<td><i class="icon-btt"></i>200</td>
+									</tr>
+									<tr>
+										<td>12.12.2020</td>
+										<td><i class="icon-btt"></i>11b</td>
+										<td><i class="icon-btt"></i>17.1m</td>
+										<td><i class="icon-btt"></i>1m</td>
+										<td><i class="icon-btt"></i>200</td>
+									</tr>
+									<tr>
+										<td>12.12.2020</td>
+										<td><i class="icon-btt"></i>11b</td>
+										<td><i class="icon-btt"></i>17.1m</td>
+										<td><i class="icon-btt"></i>1m</td>
+										<td><i class="icon-btt"></i>200</td>
+									</tr>
+									<tr>
+										<td>12.12.2020</td>
+										<td><i class="icon-btt"></i>11b</td>
+										<td><i class="icon-btt"></i>17.1m</td>
+										<td><i class="icon-btt"></i>1m</td>
+										<td><i class="icon-btt"></i>200</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+	$(function () {
+		$('[data-toggle="tooltip"]').tooltip()
+	})
+	$('#myModal').on('shown.bs.modal', function () {
+	  $('#myInput').trigger('focus')
+	})
+	$('.hide-token-btn').click(function(){
+        $('.token-block').toggleClass('hide');
+        $('.hide-token-btn').toggleClass('hide');
+	});
+	$('.hide-price-btn').click(function(){
+        $('.price-block').toggleClass('hide');
+        $('.hide-price-btn').toggleClass('hide');
+	});
+</script>
+
+</body>
+</html>
